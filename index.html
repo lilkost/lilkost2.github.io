@@ -26,7 +26,7 @@
             <div class="header__inner">
               <a class="logo header__logo" href="/">
                 <picture>
-                  <img src="./image/logoWhite.svg" alt="">
+                  <img src="./image/logoWhite.svg" alt="Логотип">
                 </picture>
               </a>
               <nav class="header__nav">
@@ -173,8 +173,8 @@
                   </li>
                 </ul>
                 <div class="info__decor">
-                  <picture><img src="./image/info/1.png" alt=""></picture>
-                  <picture><img src="./image/info/2.png" alt=""></picture>
+                  <picture><img src="./image/info/1.png" alt="Фото заведения"></picture>
+                  <picture><img src="./image/info/2.png" alt="Фото заведения"></picture>
                 </div>
               </div>
             </div>
@@ -414,18 +414,18 @@
                 </div>
                 <div class="contacts__box contacts__box--questions">
                   <h2 class="contacts__title">have any questions?</h2>
-                  <form class="contacts__form" action="">
+                  <form class="contacts__form">
                     <fieldset class="contacts__fieldset">
-                      <label for="">Name</label>
-                      <input type="text" placeholder="Input your name">
+                      <label>Name</label>
+                      <input type="text" placeholder="Input your name" name="user_name">
                     </fieldset>
                     <fieldset class="contacts__fieldset">
-                      <label for="">Email</label>
-                      <input type="email" placeholder="Input your email">
+                      <label>Email</label>
+                      <input type="email" placeholder="Input your email" name="user_email">
                     </fieldset>
                     <fieldset class="contacts__fieldset contacts__fieldset--col-two">
-                      <label for="">Speciale Request</label>
-                      <textarea name="" id="" placeholder="Input your special request"></textarea>
+                      <label>Speciale Request</label>
+                      <textarea placeholder="Input your special request" name="user_coment"></textarea>
                     </fieldset>
                     <button class="btn contacts__btn" type="submit">Send</button>
                   </form>
@@ -450,7 +450,7 @@
             <div class="footer__inner">
               <a class="footer__logo" href="/">
                 <picture>
-                  <img src="./image/logoBlack.svg" alt="">
+                  <img src="./image/logoBlack.svg" alt="Логотип">
                 </picture>
               </a>
       
@@ -466,7 +466,7 @@
       </div>
   </div>
         <!-- modal -->
-        <dialog class="modal-form" open="true">
+        <dialog class="modal-form">
           <div class="modal-form__content">
             <button class="modal-form__close">
               <svg width="30" height="30" viewbox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -477,16 +477,16 @@
             </button>
             <form id="modalContactForm" class="contacts__form">
               <fieldset class="contacts__fieldset">
-                <label for="">Name</label>
-                <input type="text" placeholder="Input your name">
+                <label>Name</label>
+                <input type="text" placeholder="Input your name" name="user_name">
               </fieldset>
               <fieldset class="contacts__fieldset">
-                <label for="">Email</label>
-                <input type="email" placeholder="Input your email">
+                <label>Email</label>
+                <input type="email" placeholder="Input your email" name="user_email">
               </fieldset>
               <fieldset class="contacts__fieldset contacts__fieldset--col-two">
-                <label for="">Speciale Request</label>
-                <textarea name="" id="" placeholder="Input your special request"></textarea>
+                <label>Speciale Request</label>
+                <textarea placeholder="Input your special request" name="user_coment"></textarea>
               </fieldset>
               <button class="btn contacts__btn" type="submit">Send</button>
             </form>
